@@ -2,7 +2,14 @@ name: 'Read yaml'
 description: 'Read data from a yaml file'
 branding:
   icon: book
-  color: yellow  
+  color: yellow
+  
+properties: 
+  name: AKDmv.cloudFlag 
+  datatype: GATEWAY PROPERTIES
+  category: MVR Gateway
+  source: DEFAULT
+  value: DISABLED
 
 inputs:
   file:
